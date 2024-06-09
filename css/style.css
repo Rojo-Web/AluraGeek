@@ -104,6 +104,7 @@ coloque nas sessões indicadas*/
     
     .product {
         width: calc(25% - 20px);
+        height: 30%;
         margin-bottom: 20px;
         background-color: #6610F2;
         border-radius: 10px;
