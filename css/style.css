@@ -186,6 +186,11 @@ coloque nas sessões indicadas*/
         border-radius: 20px;
         border-color: #007bff;
         border-width: 2px;
+        color: #007bff;
+    }
+    
+    .idProducto {
+        display: none;
     }
     
     .add-product input::placeholder {

@@ -35,15 +35,15 @@
 
                 <div class="add-product">
                     <h2>AGREGAR PRODUCTO</h2>
-                    <form>
+                    <form data-formulario>
                         <label for="nombre">Nombre:</label>
-                        <input type="text" id="nombre" name="nombre" placeholder="Fulano...">
+                        <input type="text" id="nombre" name="nombre" placeholder="Fulano..." data-titulo required>
 
                         <label for="precio">Precio:</label>
-                        <input type="number" id="precio" name="precio" placeholder="$$$...">
+                        <input type="number" id="precio" name="precio" placeholder="$$$..." data-precio required>
 
                         <label for="imagen">Imagen:</label>
-                        <input type="text" id="imagen" name="imagen" placeholder="url...">
+                        <input type="text" id="imagen" name="imagen" placeholder="url..." data-url required>
                         <div class="buttons">
                             <button id="enviar" type="submit">Enviar</button>
                             <button id="impiar" type="reset">Limpiar</button>
