@@ -9,7 +9,8 @@ async function listarProductos() {
         const api = await conexion.listarProductos();
         api.forEach((product) =>
             lista.appendChild(
-                crearTarjeta(product.titulo, product.precio, product.url, product.id)
+                crearTarjeta(product.titulo, product.precio, product.url, product.id),
+
             )
         );
     } catch {
@@ -43,20 +44,39 @@ formulario.addEventListener("submit", event => enviarProducto(event))
 
 
 //Eliminar producto
-const botonBasura = document.querySelector(".delete-product")
+// const productContainer = document.getElementById('product-container');
+// // const botonBasura = document.querySelector("products")
+// console.log(productContainer);
 
-async function eliminarEnvioProducto() {
+// async function eliminarEnvioProducto(evento) {
+
+//     const id = evento.target.closest(".product-card").dataset.id;
+
+//     try {
+//         await conexion.eliminarProducto(id);
+//         location.reload()
+//     } catch (e) {
+//         alert(e)
+//     }
+// }
 
 
-    const id = document.querySelector(".idProducto").value;
-
-    try {
-        await conexion.eliminarProducto(id);
-        location.reload()
-    } catch (e) {
-        alert(e)
-    }
-}
+// botonBasura.addEventListener("click", eliminarEnvioProducto)
 
 
-botonBasura.addEventListener("click", (evento) => eliminarEnvioProducto(evento))
+
+// productContainer.addEventListener('click', async function(evento) {
+//     if (evento.target.classList.contains('btnBorrar')) {
+//         const productCard = evento.target.closest('.product');
+//         console.log(productCard);
+//         const id = productCard.dataset.id;
+//         console.log(id);
+
+//         try {
+//             await conexion.eliminarProducto(id); // Asegúrate de definir esta función
+//             productCard.remove(); // Eliminar la tarjeta de producto del DOM
+//         } catch (e) {
+//             alert(e);
+//         }
+//     }
+// });

@@ -1,64 +1,40 @@
 {
   "productos": [
     {
-      "id": 1,
-      "titulo": "Contorl de XBOX",
-      "precio": 60,
-      "url": "https://cdn.pixabay.com/photo/2020/10/01/16/53/game-controller-5619105_1280.jpg"
-    },
-    {
-      "id": 2,
+      "id": "2",
       "titulo": "Consola XBOX",
       "precio": 120,
       "url": "https://cdn.pixabay.com/photo/2017/04/04/18/19/video-game-console-2202666_1280.jpg"
     },
     {
-      "id": 3,
+      "id": "3",
       "titulo": "Controles de play4",
       "precio": 90,
       "url": "https://cdn.pixabay.com/photo/2021/09/07/07/11/joysticks-6603119_1280.jpg"
     },
     {
-      "id": 4,
+      "id": "4",
       "titulo": "Contorl de XBOX",
       "precio": 60,
       "url": "https://cdn.pixabay.com/photo/2020/10/01/16/53/game-controller-5619105_1280.jpg"
     },
     {
-      "id": 5,
+      "id": "5",
       "titulo": "Consola XBOX",
       "precio": 120,
       "url": "https://cdn.pixabay.com/photo/2017/04/04/18/19/video-game-console-2202666_1280.jpg"
     },
     {
-      "id": 6,
+      "id": "6",
       "titulo": "Controles de play4",
       "precio": 90,
       "url": "https://cdn.pixabay.com/photo/2021/09/07/07/11/joysticks-6603119_1280.jpg"
     },
     {
-      "id": 7,
+      "id": "7",
       "titulo": "Contorl de XBOX",
       "precio": 60,
       "url": "https://cdn.pixabay.com/photo/2020/10/01/16/53/game-controller-5619105_1280.jpg"
-    },
-    {
-      "id": 8,
-      "titulo": "Consola XBOX",
-      "precio": 120,
-      "url": "https://cdn.pixabay.com/photo/2017/04/04/18/19/video-game-console-2202666_1280.jpg"
-    },
-    {
-      "id": 9,
-      "titulo": "Controles de play4",
-      "precio": 90,
-      "url": "https://cdn.pixabay.com/photo/2021/09/07/07/11/joysticks-6603119_1280.jpg"
-    },
-    {
-      "id": "30c0",
-      "titulo": "Commodore",
-      "url": "https://cdn.pixabay.com/photo/2016/02/14/14/47/xbox-1199604_1280.jpg",
-      "precio": "300"
     }
   ]
 }
